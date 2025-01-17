@@ -15,7 +15,7 @@
 */
 
 function getRandomInt(min, max) {
-  return Math.floor(Math.random(min, max) * 101);
+  return Math.floor(Math.random(min, max) * (max - min + 1) + min);
 }
 
 console.log(getRandomInt(1, 10)); // виводить випадкове число від 1 до 10

@@ -14,7 +14,8 @@
 */
 
 function greetByName(msg, name) {
-  return `${msg}, ${name}`;
+  const result = `${msg}, ${name}`
+  return result;
 }
 
 console.log(greetByName('Hi', 'John')) // Hi, John
